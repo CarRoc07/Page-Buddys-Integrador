@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;1,600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, rgba(44,110,73,1) 25%, rgba(76,149,108,1) 75%, rgba(106,184,140,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Login exclusive*/
+
+.login-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    width: 500px;
+}
+
+.login-container h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    font-size: 3em;
+    margin: 0;
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+}
+
+/* Login exclusive*/
+
+/* Sign exclusive*/
+
+.sign-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    width: 500px;
+}
+
+.sign-container h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    font-size: 3em;
+    margin: 0;
+    color: black;
+    letter-spacing: 1px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .sign-container, .login-container {
+        padding: 25px;
+        margin: 25px;
+    }
+
+    .input-container, .input-submit-container {
+        font-size: 1.75em;
+    }
+
+    .form-container {
+        font-size: 1em;
+    }
+
+    .sign-container h1 {
+        font-size: 4em;
+    }
+
+    .login-container h1 {
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 410px) {
+    .sign-container, .login-container {
+        padding: 15px;
+    }
+
+    .input-container, .input-submit-container {
+        font-size: 1.45em;
+    }
+
+    .sign-container h1 {
+        font-size: 3em;
+    }
+
+    .login-container h1 {
+        font-size: 3em;
+    }
+
+}
+
+
+/* Sign exclusive*/
+
+.form-container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.input-container input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.5em;
+    border: 1px solid silver;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+}
+
+.input-container, .input-submit-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-submit-container a {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.5em;
+    background: rgba(76,149,108,1);
+    cursor: pointer;
+    font-weight: 600;
+    transition: ease .5s;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Prompt', sans-serif;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.input-submit-container a:hover {
+    background-color: rgba(44,110,73,1);
+    transition: background-color 1s;
+
+}
+
+.form-container form p {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.forgot-pass {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.forgot-pass:hover {
+    text-decoration: underline;
+}
+
