@@ -249,6 +249,11 @@ nav {
 }
 
 @media (max-width:768px) {
+
+    .landing-page-titles, .landing-page-desc {
+        font-size: 0.75em;
+    }
+
     .landing-page-desc p{
         display: none;
     }
@@ -364,9 +369,21 @@ nav {
 }
 
 @media (max-width: 768px) {
-    .gallery-title {
-        font-size: 1.25em;
+    .item-capa {
+        font-size: 1.15em;
     }
+}
+
+@media (max-width: 568px) {
+    .item-capa {
+        font-size: 0.9em;
+    }
+
+    .item-capa p {
+        display: none;
+    }
+
+
 }
 
 @media (min-width: 1024px) {
